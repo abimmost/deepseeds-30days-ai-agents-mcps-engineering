@@ -27,8 +27,8 @@ My proof of work for the Deepseeds(SEED - @iwstech3) 30 Days challenge focused o
 | **02** | Devised and Wrote boilerplate tools and functions for agents | ✅ Done | [Learnings](week1/day02/learnings.md) • [Code](week1/day02/code/) |
 | **03** | Explored the foundation of the OpenAI Agents SDK and built an agent-driven customer support terminal | ✅ Done | [Learnings](week1/day03/learnings.md) • [Code](week1/day03/code/) |
 | **04** | A dive into nodes and graphs in Langgraph, built a research agent  | ✅ Done | [Learnings](week1/day04/learnings.md) • [Code](week1/day04/code/) |
-| **05** | Built an mcp server that exposes Windows PC user Filesystem to LLM/Agent | ⏳ Pending | [Learnings](week1/day05/learnings.md) • [Code](week1/day05/code/) |
-| **06** | --- | ⏳ Pending | [Learnings](week1/day06/learnings.md) • [Code](week1/day06/code/) |
+| **05** | Built an mcp server that exposes Windows PC user Filesystem to LLM/Agent | ✅ Done | [Learnings](week1/day05/learnings.md) • [Code](week1/day05/code/) |
+| **06** | Built an episodic memory vector database for agents | ✅ Done | [Learnings](week1/day06/learnings.md) • [Code](week1/day06/code/) |
 | **07** | --- | ⏳ Pending | [Learnings](week1/day07/learnings.md) • [Code](week1/day07/code/) |
 
 
