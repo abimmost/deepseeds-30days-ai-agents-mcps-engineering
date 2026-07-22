@@ -18,7 +18,21 @@ In production, GCP and Vertex AI are the best options for deployment and require
 Passing built-in tools and user-defined tools in the same Agent object can lead to errors so we wrap user-defined tools inside a `AgentTool` object.
 
 ---
+##### Comparison with other frameworks
 
+**Google ADK** is preferred when:
+* Infrastructure is reliant on GCP or Gemini models.
+* No need for pydantic schemas
+
+**Langgraph** is preferred when:
+* System/Workflow logic is complex and cyclic, HITL is required, when the workflow will have multiple routing conditions.
+* Complete control over state and context management is required
+
+**OpenAI Agents SDK** is preferred when:
+* OpenAI models are the foundation.
+* Workflow is simple and basic.
+
+---
 #### Drawbacks
 
 - I didn't deploy the agent on either GCP or Vertex AI and I didn't know how to configure the agents to work together with them.
